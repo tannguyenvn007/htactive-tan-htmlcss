@@ -1,0 +1,154 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.50;
+    color: #666666;
+    background-color: #ffffff;
+}
+.page-wrapper{
+    background: white;
+}
+.container-cus{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.flex-container{
+    display: flex;
+    align-items: stretch;
+}
+.flex-col{
+    flex-grow: 1;
+    width: 555px;
+}
+.header-top{
+    background-color: #f1f1f1;
+}
+.social-links li{
+    display: inline-block;
+    list-style: none;
+    border-right: 1px solid #e3e3e3;
+}
+.social-links li a{
+    color: #999999;
+}
+.row{
+    display: flex;
+}
+.col-logo{
+    flex: 30%;
+}
+.logo a img {
+    width: 200px;
+}
+.slogan{
+    font-size: 15px;
+    font-style: italic;
+    color: #999999;
+}
+.col-menu{
+    flex: 70%;
+}
+.menu{
+    float: right;
+    position: relative;
+    top: 40px;
+}
+a{
+    text-decoration: none;
+}
+.menu a{
+    text-transform: uppercase;
+    color: #666666;
+    padding: 12px 20px 12px 19px;
+}
+.col-form{
+    flex: 60%;
+}
+.col-sidebar{
+    flex: 40%;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.input-cus{
+    width: 96%;
+    background: #ffffff;
+    height: 40px;
+    padding-right: 30px;
+    color: #666666;
+    padding: 0px 12px;
+}
+textarea{
+    height: 130px !important;
+}
+.btn-cus{
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    min-width: 160px;
+    text-align: center;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.btn-default {
+    background-color: #e84c3d;
+    color: #fff !important;
+    border-color: #cd3c2e;
+}
+.vertical-divider-left, .vertical-divider-left-lg {
+    border-left: 1px solid #eeeeee;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+.list-info{
+    padding: 0;
+}
+.list-info li{
+    list-style: none;
+    padding: 5px 0;
+}
+.list-info i{
+    padding-right: 10px;
+}
+.footer{
+    font-size: 14px;
+    color: #999999;
+    padding: 30px 0;
+    background-color: #262626;
+    border-top: 1px solid #3a3a3a;
+    border-bottom: 1px solid #333333;
+}
+.col-left{
+    flex: 50%;
+}
+.col-right{
+    flex: 50%;
+}
+.list-icons, .list {
+    list-style: none;
+    padding: 0;
+}
+.list-icons li, .list li {
+    padding: 5px 0;
+}
+.logo-footer a img{
+    height: 50px;
+    width: auto;
+}
+.link-color{
+    color: #e84c3d;
+}
+.list-icons i {
+    padding-right: 10px;
+}
+.col-links{
+    flex: 40%;
+}
+.col-connect{
+    flex: 60%;
+}
